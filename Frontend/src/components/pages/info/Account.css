@@ -1,0 +1,51 @@
+.infocontainer{
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  background-color: rgb(165, 215, 232);/* กำหนดสีพื้นหลังเป็นสีเทาอ่อน */
+  padding: 10px; /* กำหนดระยะห่างของข้อความภายใน element */
+  width: 30%; /* กำหนดความกว้างเป็น 40% ของ container */
+  height: 70%;
+  float: left; /* สั่งให้ element ลอยไปทางซ้าย */
+  box-sizing: border-box;  /* กำหนดให้ padding นับเป็นส่วนหนึ่งของความกว้างของ element */
+  border-radius: 20px;
+}
+.header{
+  font-size: 30px;
+  margin-left: 4%;
+}
+#choice1{
+  background-color:  rgb(165, 215, 232);
+  padding: 20px;
+  font-size: 25px;
+  transition: background-color 0.3s ease;
+}
+#choice1:hover, #choice2:hover,#choice3:hover,#choice4:hover,#choice5:hover{
+  background-color: #5a46db;
+}
+#choice2{
+  font-size: 25px;
+  padding: 20px;
+  background-color: rgb(165, 215, 232);
+  transition: background-color 0.3s ease;
+}
+#choice3{
+  font-size: 25px;
+  padding: 20px;
+  background-color:  rgb(165, 215, 232);
+  transition: background-color 0.3s ease;
+}
+
+#choice4{
+  background-color:  rgb(165, 215, 232);
+  font-size: 25px;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+#choice5{
+  background-color:  rgb(165, 215, 232);
+  font-size: 25px;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}

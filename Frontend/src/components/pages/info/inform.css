@@ -1,0 +1,23 @@
+.information-container{
+  margin-top: 2%;
+  margin-right: 5%;  
+  margin-bottom: 2%;
+  background-color:rgb(165, 215, 232); /* กำหนดสีพื้นหลังเป็นสีเทาอ่อน */
+  padding: 30px; /* กำหนดระยะห่างของข้อความภายใน element */
+  width: 60%; /* กำหนดความกว้างเป็น 50% ของ container */
+  float: right; /* สั่งให้ element ลอยไปทางขวา */
+  box-sizing: border-box; /* กำหนดให้ padding นับเป็นส่วนหนึ่งของความกว้างของ element */
+  border-radius: 20px;
+
+ 
+}
+.head-info{
+  font-size: 30px;
+}
+.container-local{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 คอลัมน์ */
+    grid-template-rows: repeat(3, auto); /* 3 แถว */
+    gap: 10px; /*ระยะห่างระหว่าง grid*/
+}
+

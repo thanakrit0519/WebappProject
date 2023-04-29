@@ -1,0 +1,119 @@
+.EditPicButton{
+    position: absolute;
+    left:11vw;
+    bottom: 1vw;
+}
+
+.EditQrButton{
+    position: absolute;
+    left:11vw;
+    bottom: 1vw;
+}
+
+.Edit-data {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8vw;
+  }
+  
+  
+  .profile-container input[type="text"] {
+    width: 18vw;
+    margin: 1vw;
+    height: 2.5vw; /* 30% of viewport height */
+    border: 0.001vw solid rgb(81, 75, 161); /* เพิ่มเส้นกรอบสี่เหลียม */
+    border-radius: 0.5vw;
+  }
+
+  .profile-container input[type="text"]:focus{
+    outline: none;
+    border-color: #6d9eeb;
+    box-shadow: 0 0 0 0.12vw #6d9eeb;
+  }
+
+  .Edit-data input[type="text"] {
+    width: 25vw;
+    height: 2.5vw; /* 30% of viewport height */
+    border: 0.001vw solid rgb(81, 75, 161); /* เพิ่มเส้นกรอบสี่เหลียม */
+    border-radius: 0.5vw;
+  }
+  
+  .Edit-data input[type="text"]:focus {
+    outline: none;
+    border-color: #6d9eeb;
+    box-shadow: 0 0 0 0.12vw #6d9eeb;
+  }
+
+  .Edit-data input[type="text"]::placeholder {
+    color: #999;
+  }
+
+  .SaveButton{
+    position: absolute;
+    top: 2vw;
+    right: 6.5vw;
+    margin: 1vw;
+    width: 4vw;
+    padding: 0.3vw 0.6vw;
+    font-size: 0.8vw;
+    background-color: #31d955;
+    color: #f9f9f9;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+  }
+
+  .SaveButton:hover {
+    background-color: #187739;
+  }
+
+  .CancelButton {
+ 
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    margin: 1vw;
+    padding: 0.3vw 0.6vw;
+    width: 4vw;
+    font-size: 0.8vw;
+    background-color:  #eb6d6d;
+    color: #fff;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+  }
+  
+  .CancelButton:hover {
+    background-color:  #bf4a4a;
+  }
+
+  .EditQrButton{
+    padding: 0.3vw 0.6vw;
+    width: 4vw;
+    font-size: 0.8vw;
+    background-color: #6d9eeb;
+    color: #fff;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+  }
+
+  .EditQrButton:hover{
+    background-color: #4a7abf;
+  }
+
+  .EditPicButton{
+    padding: 0.3vw 0.6vw;
+    width: 4vw;
+     font-size: 0.8vw;
+     background-color: #6d9eeb;
+     color: #fff;
+     border: none;
+     border-radius: 0.5vw;
+     cursor: pointer;
+  }
+
+  .EditPicButton:hover{
+    background-color: #4a7abf;
+
+  }

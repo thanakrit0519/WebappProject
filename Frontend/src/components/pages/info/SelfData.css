@@ -1,0 +1,10 @@
+.boxname-usn {
+    background-color: rgb(87, 108, 188);
+    width: 80%;
+    height: 5vh; /* 30% of viewport height */
+    border: 1px solid black; /* เพิ่มเส้นกรอบสี่เหลียม */
+    border-radius: 5px;
+   /* กำหนดระยะห่างระหว่าง element */
+  }
+  
+
